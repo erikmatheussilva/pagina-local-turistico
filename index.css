@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* structures */
+
+header {
+  padding: 80px 60px 40px 70px;
+}
+
+main {
+  margin: 0 auto;
+  padding: 0px 75px 0px 75px;
+}
+
+.conclusion {
+  font-size: 16px;
+  text-align: center;
+  word-spacing: 3px;
+  display: block;
+  padding: 0px 20px 50px 20px;
+}
+
+footer p {
+  text-align: center;
+  display: block;
+  font-size: 16px;
+  color: #666666;
+  padding-bottom: 50px;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  margin: 36px 0;
+  background-color: #cec6c6;
+}
+
+/* images */
+
+img {
+  border-radius: 28px; /* Adicionar o arredondamento da borda */
+  width: 100%; /* imagem ocupa 100% do tamanho disponível pra ela */
+  margin: auto;
+  display: block; /* Garante que a imagem seja tratada como um bloco para centralização */
+}
+
+#busan-big-image {
+  margin-top: 8px;
+}
+
+#busan-medium-image {
+  margin-bottom: 30px;
+  margin-top: 60px;
+  height: 350px;
+  /* 2. Tell the image to cover the container while maintaining its aspect ratio */
+  object-fit: cover;
+  /* 3. Position the image to align with the top edge of the container */
+  object-position: center;
+}
+
+/* texts */
+
+sub {
+  font-size: 15px;
+  font-style: italic;
+  text-align: center;
+  word-spacing: 3px;
+  display: block;
+  padding: 20px 20px 0px 20px;
+  color: #333333;
+}
+
+h4 {
+  margin: 10px 10px 10px 0px;
+  color: #e1624f;
+}
+
+p {
+  margin: 10px 10px 0px 0px;
+  line-height: 1.6;
+  text-align: left;
+  font-size: 16px;
+  color: #333333;
+}
+
+ul,
+li {
+  font-weight: bold;
+  font-size: 16;
+}
+
+ul {
+  margin-top: 16px;
+}
+
+.couples {
+  color: #591b98;
+}
+
+.families {
+  color: #e5245e;
+}
+
+.budget {
+  color: #e95e10;
+}
+
+li {
+  color: #0c51a7;
+  margin-left: 25px;
+}
+
+.img-title {
+  margin-left: 15px;
+}
+
+
+ul li::marker {
+  color: #333333;
+}
